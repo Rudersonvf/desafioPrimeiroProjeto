@@ -1,41 +1,122 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
- 
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
 }
 
-.pt-main-container{
-    width: 100%;
-    max-width: 500px;
-    height: 100vh;
-    display: block;
-    margin: 30px auto;
+.pt-main-container {
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  display: block;
+  margin: 30px auto;
 }
 
-.pt-main-form{
-    width: 100%;
-    display: block;
-    background-color: #EEE;
-    padding: 15px 10px;
+.pt-main-form {
+  width: 100%;
+  display: block;
+  background-color: #eee;
+  padding: 20px 15px;
+  border-radius: 15px;
 }
 
-.pt-main-img-container{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(180deg, #58135E, #93E9EB);
-
+.pt-main-img-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #58135e, #93e9eb);
+  border-radius: 10px;
 }
 
-.pt-main-img-container img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.pt-main-img-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.pt-main-form h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 15px auto 0 auto;
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+.pt-main-form p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #58135e;
+  margin: 15px auto 0 auto;
+  display: block;
+  width: 70%;
+  text-align: center;
+}
+
+.pt-main-form-container {
+  width: 100%;
+  height: auto;
+  margin: 10px auto 0 auto;
+}
+
+.pt-main-form-container-1st {
+  margin: 30px auto 0 auto;
+}
+
+.pt-main-form-txtform {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.pt-main-form-forminput {
+  width: 100%;
+  height: 30px;
+  background-color: #dcdcdc;
+  border: solid 2px #58135e;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: block;
+}
+
+.pt-main-bnt {
+  width: 40%;
+  height: 40px;
+  display: block;
+  background-color: #58135e;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #eee;
+  margin: 15px auto 0 auto;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.pt-main-bnt:hover {
+  width: 50%;
+  height: 50px;
+  color: #93e9eb;
+  border: 4px solid #93e9eb;
+}
+
+#pt-par-footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  margin: 30px auto 0 auto;
+  display: block;
+  width: 75%;
+  text-align: center;
+  color: red;
 }
