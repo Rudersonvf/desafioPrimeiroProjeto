@@ -1,8 +1,41 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
+    width: 100%;
+    height: 100vh;
     background-color: #000;
+ 
+}
+
+.pt-main-container{
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    display: block;
+    margin: 30px auto;
+}
+
+.pt-main-form{
+    width: 100%;
+    display: block;
+    background-color: #EEE;
+    padding: 15px 10px;
+}
+
+.pt-main-img-container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #58135E, #93E9EB);
+
+}
+
+.pt-main-img-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
