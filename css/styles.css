@@ -52,7 +52,7 @@ body {
   text-align: center;
 }
 
-.pt-main-form p {
+.pt-main-form-txt-h1 {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -61,6 +61,14 @@ body {
   display: block;
   width: 70%;
   text-align: center;
+}
+.pt-main-form-txt {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #58135e;
+  display: block;
+  margin-top: 10px;
 }
 
 .pt-main-form-container {
@@ -84,8 +92,10 @@ body {
   background-color: #dcdcdc;
   border: solid 2px #58135e;
   border-radius: 5px;
-  margin-top: 5px;
   display: block;
+}
+.pt-main-form-forminput::placeholder {
+  padding-left: 5px;
 }
 
 .pt-main-bnt {

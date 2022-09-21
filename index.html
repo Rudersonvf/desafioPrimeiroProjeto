@@ -13,28 +13,58 @@
         <div class="pt-main-img-container">
           <img src="images/imagem.png" />
         </div>
-        <h1>CADASTRO</h1>
-        <p>
+        <h1 class="pt-main-form-txt-h1">CADASTRO</h1>
+        <p class="pt-main-form-txt">
           Cadastre-se para receber as melhores ofertas em jogos e consoles
           diretamente em seu whatsapp.
         </p>
-        <div class="pt-main-form-container-1st">
-          <h2 class="pt-main-form-txtform">Nome</h2>
-          <div type class="pt-main-form-forminput" contenteditable="true"></div>
-        </div>
-        <div class="pt-main-form-container">
-          <h2 class="pt-main-form-txtform">E-mail</h2>
-          <div type class="pt-main-form-forminput" contenteditable="true"></div>
-        </div>
-        <div class="pt-main-form-container">
-          <h2 class="pt-main-form-txtform">Celular/WhatsApp</h2>
-          <div type class="pt-main-form-forminput" contenteditable="true"></div>
-          <div class="pt-main-form-container">
-            <h2 class="pt-main-form-txtform">11+9=?</h2>
-            <div type class="pt-main-form-forminput" contenteditable="true"></div>
-        </div>
-        <button class="pt-main-bnt">Cadastrar</button>
-        <p id="pt-par-footer">PÁGINA TESTE!!! Apenas para fins de estudo. Qualquer informação descita acima é puramente fictícia </p>
+        <form action="#">
+          <div class="pt-main-form-container-1st">
+            <label for="ctrl-name" class="pt-main-form-txt">Nome</label>
+            <input
+              id="ctrl-name"
+              type="text"
+              placeholder="Digite seu nome"
+              class="pt-main-form-forminput"
+            />
+          </div>
+          <div>
+            <label for="ctrl-email" class="pt-main-form-txt">E-mail</label>
+            <input
+              id="ctrl-email"
+              type="text"
+              placeholder="exemplo@exemplo.com"
+              class="pt-main-form-forminput"
+            />
+          </div>
+          <div>
+            <label for="ctrl-phone" class="pt-main-form-txt"
+              >Celular/WhatsApp</label
+            >
+            <input
+              id="ctrl-phone"
+              type="text"
+              placeholder="(00) 0 0000-0000"
+              class="pt-main-form-forminput"
+            />
+          </div>
+          <div>
+            <label for="ctrl-captcha" class="pt-main-form-txt">11+9=?</label>
+            <input
+              id="ctrl-captcha"
+              type="text"
+              placeholder="8"
+              class="pt-main-form-forminput"
+            />
+          </div>
+          <div>
+            <input type="submit" value="Cadastrar" class="pt-main-bnt" />
+          </div>
+        </form>
+        <p id="pt-par-footer">
+          PÁGINA TESTE!!! Apenas para fins de estudo. Qualquer informação
+          descita acima é puramente fictícia
+        </p>
       </div>
     </div>
   </body>
